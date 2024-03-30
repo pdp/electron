@@ -21,3 +21,56 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+/target
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.iml
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.angular/cache
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+/package-lock.json
+
+/src/app/app-version.ts
+/src/assets/app-version.json
+/cypress/screenshots/
+/cypress/videos/
+
+# JDSS Jenkins uses JFrog's `jf`-cli to do something with artifactory.
+# This generates a file at jfrog/projects/npm.yaml
+.jfrog/
+/.idea/markdown.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml
